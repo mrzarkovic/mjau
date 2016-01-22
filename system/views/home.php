@@ -1,7 +1,7 @@
 <section class="main content">
 	<input type="button" onclick="table.addPlayer();" value="Dodaj igrača">
 	<div class="clearfix">
-		<table id="table" class="mjaumjau-table">
+		<table id="table" class="mraumrau-table">
 			<thead data-role="table-head">
 				<!-- Players names holder -->
 			</thead>
@@ -9,7 +9,7 @@
 				<!-- Results per game -->
 			</tbody>
 			<tfoot data-role="table-foot">
-			<!-- Sum of results -->
+				<!-- Sum of results -->
 			</tfoot>
 		</table>
 	</div>
@@ -23,7 +23,7 @@
 	<tr data-role="game-row-template" data-status="" data-id="" class="template">
 		<td data-role="game-col-template" data-id="" class="template">
 			<input data-role="input-number-template" type="number" value="" placeholder="0" class="template">
-			<div data-role="disabled-input-template" class="template"></div>
+			<div data-role="disabled-input-template" class="disabled-input template"></div>
 		</td>
 		<td data-role="controls-col-template" class="controls template">
 			<input type="button" value="Sačuvaj" onclick="table.saveRow(this)" class="finish-control">
@@ -34,7 +34,6 @@
 		<td data-role="result-col-template" data-id="" class="template"></td>
 	</tr>
 </table>
-<script src="/js/table.js"></script>
 <script>
 	var table = new Table("table");
 	table.initialize();

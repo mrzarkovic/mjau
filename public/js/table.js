@@ -7,6 +7,8 @@ function Table(idName) {
     this.playersHolder = $("[data-role='table-head']");
     this.gamesHolder = $("[data-role='table-body']");
     this.resultsHolder = $("[data-role='table-foot']");
+    this.totalPlayers = 1;
+    this.currentGame = 1;
 
     /**
      * Initialize the table
@@ -49,6 +51,8 @@ function Table(idName) {
      */
     this.addPlayer = function () {
         // Add player column
+        this.totalPlayers++;
+        console.log("total players: " +this.totalPlayers);
         var playerRow = $("[data-role='players-row']").attr("data-status", "editing").addClass("active");
         var playersControl = playerRow.children("[data-role='controls-col']");
         var lastPlayer = $("[data-role='player-col']").last();
@@ -119,6 +123,8 @@ function Table(idName) {
      * Add a new game row
      */
     this.addRow = function () {
+        this.currentGame++;
+        console.log("current game: "+this.currentGame);
         var activeRow = $("[data-role='game-row'][data-status='active']").last();
         var oldID = Number(activeRow.attr("data-id"));
         var newID = oldID + 1;

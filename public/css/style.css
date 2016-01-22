@@ -352,18 +352,23 @@ nav ul li a:hover {
 
 /* end of CLEARFIX */
 
-/* MJAUMJAU TABLE */
-.mjaumjau-table .active .controls .finish-control,
-.mjaumjau-table .controls .edit-control {
+/* MRAUMRAU TABLE */
+.mraumrau-table .active .controls .finish-control,
+.mraumrau-table .controls .edit-control {
 	display: inline;
 }
 
-.mjaumjau-table .controls .finish-control,
-.mjaumjau-table .active .controls .edit-control {
+.mraumrau-table .controls .finish-control,
+.mraumrau-table .active .controls .edit-control {
 	display: none;
 }
 
 .template {
 	display: none;
 }
-/* end of MJAUMJAU TABLE */
+
+.mraumrau-table .disabled-input,
+.mraumrau-table input {
+	text-align: center;
+}
+/* end of MRAUMRAU TABLE */
