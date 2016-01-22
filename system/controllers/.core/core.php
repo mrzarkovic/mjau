@@ -49,8 +49,8 @@ class Core {
 		$this->to_tpl = array();
 		$this->msg_to_user = "";
 		$this->template = "";
-		$this->site_name = "Mjaumjau";
-		$this->page_name = "Web tabela za praćenje rezultata.";
+		$this->site_name = "Mraumrau";
+		$this->page_name = "Tabela za praćenje rezultata.";
 
 		$this->to_tpl['footer_year'] = "2016.";
 	}

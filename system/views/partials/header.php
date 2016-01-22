@@ -1,7 +1,7 @@
 <header class="header">
   <div class="content clearfix">
 	  <a href="/" class="logo">
-		  Mjaumjau <small>Tabela</small>
+		  Mraumrau <small>Tabela</small>
 	  </a>
   </div>
   <nav class="navigation">
