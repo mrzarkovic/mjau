@@ -12,6 +12,7 @@ html {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	width: 100%;
 }
 
 *, *:before, *:after {
@@ -21,6 +22,7 @@ html {
 }
 
 body {
+	width: 100%;
 }
 
 a {
@@ -68,7 +70,7 @@ section.main > h1 {
 
 .content {
 	margin: 0 auto;
-	width: 1200px;
+	max-width: 1000px;
 }
 
 .main {
@@ -359,7 +361,7 @@ nav ul li a:hover {
 }
 
 .mraumrau-table .controls {
-	width: 60px;	
+	width: 60px;
 }
 
 .mraumrau-table .active .controls .finish-control,
