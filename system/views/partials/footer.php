@@ -1,5 +1,5 @@
 <footer class="footer">
 	<div class="content">
-		Copyright (c) <?php echo $footer_year; ?> Mraumrau.
+		<?php // echo $footer_year; ?>
 	</div>
 </footer>
